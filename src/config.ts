@@ -19,8 +19,8 @@ export interface SocialLink {
 
 export const SITE = {
   /** Absolute origin of the deployed site. No trailing slash. */
-  url: "https://sumi.p4ni.com",
-  title: "Sumi",
+  url: "https://sumi.paulapplegate.com",
+  title: "Living Life",
   /**
    * Short Japanese mark used for the vertical rail and the loading screen.
    * Set to an empty string to drop the Japanese accents entirely.
@@ -38,8 +38,8 @@ export const SITE = {
 } as const;
 
 export const AUTHOR = {
-  name: "kpab",
-  url: "https://github.com/kpab",
+  name: "Paul Applegate",
+  url: "https://github.com/theapplegates",
   /** One or two sentences. Shown on /about and in structured data. */
   bio: "Designer and developer working on quiet interfaces. Sumi is an attempt to give a blog the pacing of a printed page.",
 } as const;
@@ -51,7 +51,7 @@ export const NAV: NavItem[] = [
 ];
 
 export const SOCIAL: SocialLink[] = [
-  { label: "GitHub", href: "https://github.com/kpab/astro-sumi" },
+  { label: "GitHub", href: "https://github.com/theapplegates/astro-sumi" },
 ];
 
 export const BLOG = {
